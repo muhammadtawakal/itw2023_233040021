@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+.header{
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 60px;
+    color: darkblue;
+}
+.link{
+    color: white;
+}
+a.sandika:hover{
+    color: red;
+}
+a.mark:hover{
+    background-color: darkblue;
+}
+.right{
+    text-align: right;
+}
+.paragraf1{
+    color: orange;
+    text-align: center;
+}
