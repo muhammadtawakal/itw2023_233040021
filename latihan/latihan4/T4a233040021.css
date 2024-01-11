@@ -1,18 +1,16 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Apply a background color and set font styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #000;
 }
 
-/* Style the header and navigation */
 header {
     background-color: #333;
     color: #fff;
@@ -74,7 +72,6 @@ nav a {
     font-size: 16px;
 }
 
-/* Style the hero section */
 .hero {
     height: 280px;
     background-image: url(https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8fHww); /* Add your image here */
@@ -127,7 +124,6 @@ nav a {
     background-color: #ff9933;
 }
 
-/* Style the features section */
 .features {
     background-color: #fff;
     padding: 80px 0;
@@ -148,9 +144,6 @@ nav a {
     margin-bottom: 10px;
 }
 
-/* Add more styles for the "About Us," "Contact Us," and "Sign Up" sections as needed */
-
-/* Style the footer */
 footer {
     background-color: #333;
     color: #fff;
@@ -158,14 +151,12 @@ footer {
     padding: 10px 0;
 }
 
-/* Make the navigation sticky */
 header {
     position: sticky;
     top: 0;
     z-index: 100;
 }
 
-/* Responsive design for smaller screens (adjust as needed) */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
